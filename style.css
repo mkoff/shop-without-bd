@@ -6,6 +6,9 @@ body{
 li{
   list-style-type: none;
 }
+.products li.display-none{
+  display: none;
+}
 h1{
   text-align: center;
   text-transform: uppercase;
