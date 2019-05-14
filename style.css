@@ -31,20 +31,30 @@ h1{
   box-shadow: 0 0 5px #f9f9f9;
 }
 .mnu{
-  width: 130px;
+  width: 180px;
   border: 1px solid #f1f1f1;
   position: fixed;
-  top: 150px;
+  top: 50px;
   left: 10px;
+}
+.mnu input[type="button"]{
+  text-align: center;
+  margin: 5px auto;
+  display: block;
+  border: 1px solid #999;
 }
 .list{
   padding: 5px;
   margin: 10px;
   border: 1px solid #f1f1f1;
+  max-height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 .list-title{
   text-align: center;
   margin: 5px;
+  font-size: 20px;
 }
 .products li{
   width: 205px;

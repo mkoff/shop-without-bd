@@ -42,5 +42,4 @@ const products = {
     vendorCode : 10006
   },
 }
-
 const tags = ['16gb','32gb','64gb','128gb','256gb'];

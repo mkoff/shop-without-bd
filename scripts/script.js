@@ -25,12 +25,13 @@ $(() => {
   $('.list-tags input[type="checkbox"]').click(function() {
     let keyTag = $(this).attr('name');
     if($(this).is(':checked')){
+      $('.products li').addClass('display-none');
       $('.'+ keyTag +'').removeClass('display-none');
     }else{
-      $('.'+ keyTag +'').addClass('display-none');
+      $('.products li').removeClass('display-none');
     }
   });
       
-  $('.mnu input[type="checkbox"]').trigger('click');
+  $('.list-name input[type="checkbox"]').trigger('click');
 
 });  
